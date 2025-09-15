@@ -230,6 +230,6 @@ end)
 player.CharacterAdded:Connect(function()
     task.wait(3)
     if not _G.BrainrotFinderRunning then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/networkchannel/hubfinder/refs/heads/main/txt.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/networkchannel/hubfinder/refs/heads/main/txt.lua?t"))()
     end
 end)
